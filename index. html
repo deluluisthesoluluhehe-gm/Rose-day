@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happy Rose Day ❤</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to bottom right, #ffdde1, #ee9ca7);
+      color: #7a1c2b;
+      text-align: center;
+    }
+    header {
+      padding: 60px 20px;
+    }
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+    h2 {
+      font-weight: normal;
+      font-size: 1.3rem;
+    }
+    .rose {
+      font-size: 80px;
+      margin: 30px 0;
+      animation: float 3s ease-in-out infinite;
+    }
+    @keyframes float {
+      0% { transform: translateY(0); }
+      50% { transform: translateY(-15px); }
+      100% { transform: translateY(0); }
+    }
+    .card {
+      background: rgba(255,255,255,0.85);
+      margin: 20px auto;
+      padding: 30px;
+      max-width: 600px;
+      border-radius: 20px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    }
+    .card p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+    }
+    footer {
+      margin: 40px 0 20px;
+      font-size: 0.9rem;
+      opacity: 0.8;
+    }
+    button {
+      background: #c2185b;
+      color: white;
+      border: none;
+      padding: 12px 25px;
+      font-size: 1rem;
+      border-radius: 25px;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+    button:hover {
+      background: #ad1457;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Happy Rose Day 🌹</h1>
+    <h2>Just a small reminder of how special you are</h2>
+    <div class="rose">🌹</div>
+  </header>
+
+  <div class="card">
+    <p>
+      Roses are red, soft, and beautiful — just like the way you make my days brighter.
+      This little page is made just for you, to say thank you for the smiles, the care,
+      and the warmth you bring into my life. 🌸
+    </p>
+    <p>
+      On this Rose Day, I wish I could hand you a real rose, but until then,
+      let this website carry my feelings for you.
+    </p>
+    <button onclick="alert('Happy Rose Day! 🌹')">Click for a Surprise</button>
+  </div>
+
+  <footer>
+    Made with ❤ just for you
+  </footer>
+</body>
+</html>
